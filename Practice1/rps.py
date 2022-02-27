@@ -42,7 +42,7 @@ while True:
             print("You Win!!")
 
     play_again = input("Would you like to play again? (Yes/No): ").lower()
-    if play_again != "yes" or "no":
+    if play_again != "yes":
         break
 
 print("Great playing with you...\nHave a nice day!!")
